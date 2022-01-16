@@ -1,0 +1,73 @@
+.navbar-custom {
+  background-color: #0d226b;
+  border-bottom: #fdbe34 solid 1px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #fdbe34;
+}
+.navbar-custom1 {
+  margin-left: 30%;
+}
+
+.navbar-custom1 ul li a {
+  color: #fdbe34;
+  font-weight: bold;
+  font-size: large;
+}
+.navbar-custom1 ul li a:hover {
+  color: #0d226b;
+  background-color: #fdbe34;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 102, 203);
+}
+.btn-signUp {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 3px solid #fdbe34;
+  color: #fdbe34;
+  margin-left: 10px;
+  background-color: #0d226b;
+}
+.btn-signUp Link {
+  color: #fdbe34;
+  font-weight: bold;
+}
+#welcome {
+  color: #fdbe34;
+  font-size: large;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+#option {
+  color: #fdbe34;
+}
+#drop {
+  position: relative;
+}
+#content {
+  display: none;
+  position: absolute;
+  background-color: #fdbe34;
+  color: #0d226b;
+  font-weight: bold;
+  min-width: 160px;
+  text-align: center;
+  right: 0;
+  padding: 10px;
+  border: #0d226b 2px solid;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+#drop:hover #content {
+  display: block;
+}

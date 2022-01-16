@@ -1,0 +1,55 @@
+.main1 {
+  background-color: #0d226b;
+  min-height: 721px;
+}
+.error {
+  color: red;
+}
+.f1 {
+  margin-top: 50px;
+  width: 80%;
+  background-color: #fdbe34;
+  border: 2px solid #0b409c;
+  padding: 20px 30px;
+  color: #0b409c;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.f1 > div > input {
+  border: none;
+  background-color: #f2f7ff;
+}
+.f1 > div > input:focus {
+  border: none;
+  border-bottom: 5px solid #0b409c;
+
+  transition: o.5s ease-in;
+}
+#inpt {
+  background-color: #0b409c;
+  color: #fdbe34;
+  margin-top: 30px;
+  font-weight: bold;
+}
+#inpt:hover {
+  border-left: #fdbe34 solid 2px;
+  border-right: #fdbe34 solid 2px;
+
+  margin-top: 30px;
+  font-weight: bold;
+}
+#inpt1 {
+  background-color: #0b409c;
+  color: #fdbe34;
+  width: 100%;
+  padding: 7px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+#inpt1:hover {
+  border-left: #fdbe34 solid 2px;
+  border-right: #fdbe34 solid 2px;
+
+  margin-top: 30px;
+  font-weight: bold;
+}

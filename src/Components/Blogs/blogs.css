@@ -1,0 +1,43 @@
+.blogs {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.blogs > a {
+  color: #0d226b;
+}
+.blogs:hover {
+  color: #0b409c;
+  transition: 0.3s;
+}
+.blogs:hover a {
+  text-decoration: none;
+}
+.img1 {
+  max-width: 250px;
+  min-width: 250px;
+
+  float: right;
+  overflow: hidden;
+
+  border-radius: 2px;
+}
+.catagories h5 {
+  color: #0b409c;
+}
+.catagories p a {
+  color: #fdbe34;
+}
+.catagories p {
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #fdbe34;
+  background-color: #0b409c;
+}
+#icn {
+  color: #0b409c;
+}
+#icn:active {
+  color: #fdbe34;
+}

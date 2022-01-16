@@ -1,0 +1,9 @@
+#list {
+  list-style: none;
+  font-size: large;
+  color: #0d226b;
+  font-weight: bold;
+}
+#list > li > span {
+  margin-right: 50px;
+}

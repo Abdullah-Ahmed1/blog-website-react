@@ -1,0 +1,11 @@
+#trend {
+  border: 1px solid #0b409c;
+  border-radius: 5px;
+  color: #0b409c;
+  background-color: #fdbe34;
+  padding: 10px;
+}
+#trend:hover {
+  border: 3px solid #0b409c;
+  padding: 8px;
+}
